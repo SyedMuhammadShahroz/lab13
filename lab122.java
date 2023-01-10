@@ -13,7 +13,7 @@ public class lab122 {
 		System.out.print("Enter the index of the array: ");
 		try {
 			// Display the corresponding element value
-			System.out.println("The corresponding element value is " + 
+			System.out.println("The element value is " + 
 				array[input.nextInt()]);
 		}
 		catch (ArrayIndexOutOfBoundsException ex) {
