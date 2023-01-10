@@ -12,7 +12,7 @@ public class lab122 {
 		// Prompt the user to enter the index of the array
 		System.out.print("Enter the index of the array: ");
 		try {
-			// Display the corresponding element value
+			// Display the element value
 			System.out.println("The element value is " + 
 				array[input.nextInt()]);
 		}
